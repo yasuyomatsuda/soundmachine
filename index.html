@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>音殿</title>
+    <link rel="stylesheet" type="text/css" href="ototono_style.css">
+  </head>
+  <body>
+    <header>
+      <img class="title" src="titlelogo.png" alt="音殿OTOTONO">
+    </header>
+    <section class="container">
+      <div class="wrapper1">
+      <!-- speaker -->
+      <article class="left">
+        <h1>
+          ······<br>
+          ········<br>
+          ··········<br>
+          ···········<br>
+          ············<br>
+          ············<br>
+          ············<br>
+          ···········<br>
+          ··········<br>
+          ········<br>
+          ······<br>
+        </h1>
+      </article>
+
+      <!-- Display -->
+      <article class="right">
+        <button type="button" onclick="start()" name="start"><audio src="horagai.mp3" loop="true"></audio><span class="button-text">開始</span><br>START</button>
+        <button type="button" onclick="stop()" name="stop"><span class="button-text">停止</span><br>STOP</button>
+        <div class="remainingTime">残り秒数：<span class="lighting"></span></div>
+      </article>
+    </div>
+    <div class="wrapper2">
+     <!-- direction -->
+      <article class="direction">
+        <p>開始を押すと25秒ホラ貝の音が鳴り響きます。<br>
+          途中でボタンを押すと延長します。
+        </p>
+        <p class="ototono">oTOTOno</p>
+      </article>
+    </div>
+
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+
+  </body>
+</html>
